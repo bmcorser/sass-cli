@@ -26,7 +26,7 @@ def directories(inpath, outpath):
 
 @click.command()
 @click.argument('inpath', type=click.Path(exists=True))
-@click.argument('outpath', type=click.Path(exists=True))
+@click.argument('outpath', type=click.Path())
 def run(inpath, outpath):
     'Check if we have been called with directories or filenames'
     if os.path.isdir(inpath) and os.path.isdir(inpath):
