@@ -25,3 +25,5 @@ Two dirs:
 .. code-block:: bash
 
     $ sass assets/scss build/css
+
+.. image:: https://travis-ci.org/bmcorser/sass-cli.svg
