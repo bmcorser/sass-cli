@@ -26,7 +26,7 @@ def readme():
 
 setup(
     name='sass-cli',
-    version='0.0.1',
+    version='0.0.2',
     description='CLI for SASS compliation',
     long_description=readme(),
     url='http://bmcorser.github.com/sass-cli',
