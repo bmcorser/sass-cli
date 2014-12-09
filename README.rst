@@ -27,3 +27,4 @@ Two dirs:
     $ sass assets/scss build/css
 
 .. image:: https://travis-ci.org/bmcorser/sass-cli.svg
+           :target: https://travis-ci.org/bmcorser/sass-cli
