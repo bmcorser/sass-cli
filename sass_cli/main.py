@@ -8,7 +8,8 @@ def compile_write(scsspath, csspath):
     if not os.path.exists(cssdir):
         os.makedirs(cssdir)
     with open(csspath, 'w') as cssfile:
-        cssfile.write(sass.compile_file(scsspath))
+        css = sass.compile_file(bytes(scsspath, 'utf-8')).decode('utf-8')
+        cssfile.write(css)
 
 
 def css_ext(path):
