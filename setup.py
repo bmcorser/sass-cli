@@ -40,4 +40,7 @@ setup(
         [console_scripts]
         sass=sass_cli.main:run
     '''
+    classifiers=[
+        'Programming Language :: Python :: 3 :: Only'
+    ],
 )
